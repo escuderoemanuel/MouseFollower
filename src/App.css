@@ -1,8 +1,8 @@
-#root {
-  max-width: 1280px;
+.app {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  justify-content: center;
 }
 
 .logo {
@@ -39,4 +39,16 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.ball {
+  position: absolute;
+  background-color: rgb(0, 153, 255);
+  border-radius: 50%;
+  opacity: 0.5;
+  pointer-events: none;
+  left: -25;
+  right: -25;
+  width: 50px;
+  height: 50px;
 }
