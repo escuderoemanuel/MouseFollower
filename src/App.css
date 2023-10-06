@@ -1,6 +1,5 @@
 .app {
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   justify-content: center;
 }
@@ -11,9 +10,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -41,14 +42,6 @@
   color: #888;
 }
 
-.ball {
-  position: absolute;
-  background-color: rgb(0, 153, 255);
-  border-radius: 50%;
-  opacity: 0.5;
-  pointer-events: none;
-  left: -25;
-  right: -25;
-  width: 50px;
-  height: 50px;
+.noCursor {
+  cursor: none;
 }
